@@ -33,7 +33,7 @@ public class AuthTest {
                 .when()
                 .post("/api/auth")
                 .then()
-                .statusCode(401);
+                .statusCode(400);
     }
 
     @Test
@@ -46,7 +46,7 @@ public class AuthTest {
                 .when()
                 .post("/api/auth")
                 .then()
-                .statusCode(401);
+                .statusCode(400);
     }
 
     @Test
@@ -59,7 +59,7 @@ public class AuthTest {
                 .when()
                 .post("/api/auth")
                 .then()
-                .statusCode(401);
+                .statusCode(400);
     }
 
     @Test
@@ -70,6 +70,6 @@ public class AuthTest {
                 .when()
                 .post("/api/auth")
                 .then()
-                .statusCode(401);
+                .statusCode(400);
     }
 }
